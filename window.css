@@ -1,0 +1,155 @@
+#buyWindow {
+    position: fixed;
+    width: 500px;
+    height: 700px;
+    background-color: rgb(92, 92, 92);
+
+    top: 20%;
+    margin-left: 36%;
+
+    border-radius: 5%;
+    box-shadow: 0 0 5px 0 rgb(189, 144, 60);
+
+    opacity: 0;
+
+    transition: 0.5s;
+}
+
+#closeWindow {
+    position: absolute;
+    right: 5%;
+    color: rgb(243, 194, 32);
+}
+
+#closeWindow:hover {
+    cursor: pointer;
+}
+
+
+#buyMainText h1 {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(150,104,22,1) 6%, rgba(244,221,11,1) 69%, rgba(204,161,4,1) 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#buyWindow h3 {
+    color: rgb(189, 144, 60);
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.inp {
+    position: relative;
+    left: 0.5%;
+    width: 98%;
+    border-radius: 8%;
+    border: 0px;
+
+    background-color: rgb(44, 43, 43);
+}
+
+#buyWindow ::placeholder {
+    text-align: center;
+}
+
+#nick {
+    color: rgb(236, 236, 236);
+    text-align: center;
+}
+
+#mail {
+    color: rgb(236, 236, 236);
+    text-align: center;
+}
+
+#amount button {
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border: 0px;
+    color: rgb(189, 144, 60);
+}
+
+#amount button:hover {
+    cursor: pointer;
+}
+
+#minus {
+    left: 43%;
+    top: 36%;
+
+    width: 20px;
+    height: 20px;
+}
+
+#amountText {
+    position: relative;
+    top: 36%;
+    left: 49.2%;
+}
+
+#plus {
+    left: 53%;
+    top: 36%;
+
+    width: 20px;
+    height: 20px;
+}
+
+#promoText {
+    position: absolute;
+    color: rgb(189, 144, 60);
+    margin-bottom: 1%;
+    left: 0.5%;
+}
+
+#promo {
+    position: absolute;
+    left: 0.5%;
+    width: 100px;
+    border-radius: 8%;
+    border: 0px;
+
+    background-color: rgb(44, 43, 43);
+
+    color: rgb(236, 236, 236);
+}
+
+#promo::placeholder {
+    text-align: left;
+}
+
+#text {
+    position: absolute;
+    margin-top: 15%;
+    left: 0.5%;
+}
+
+#prise {
+    position: absolute;
+    bottom: 1%;
+    left: 0.5%;
+    background: linear-gradient(90deg, rgba(150,104,22,1) 6%, rgba(244,221,11,1) 69%, rgba(204,161,4,1) 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#continue {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 2%;
+    right: 4%;
+    background: linear-gradient(90deg, rgba(150,104,22,1) 6%, rgba(244,221,11,1) 69%, rgba(204,161,4,1) 100%);
+
+    border-radius: 9%;
+    border: 0;
+}
+
+#continue:hover {
+    cursor: pointer;
+}
